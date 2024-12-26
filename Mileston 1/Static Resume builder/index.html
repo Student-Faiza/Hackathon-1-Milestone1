@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Resume Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Personal Information Section -->
+        <section class="personal-info">
+            <img src="./Profile pic.jpg" alt="Profile Picture" class="profile-img">
+            <h1>Hafiza Faiza</h1>
+            <p>Email: faiza.amee2003@gmail.com</p>
+            <p>Phone: +923272832735</p>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education">
+            <h2>Education</h2>
+            <p>Bachelor of Science in Computer Science</p>
+            <p>OXFORD University (london)</p>
+            <br/>
+            <h2>Intermediate</h2>
+            <p>HSC is passed from Govt.College for Women.</p>
+            <br/>
+            <h2>Matric</h2>
+            <p>SSc is passed from iQRA HUFFAZ GIRLS SEc.SCHOOL, Karachi.</p>
+
+        </section>
+
+        <!-- Skills Section (Initially hidden) -->
+        <section class="skills" id="skills-section">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>TypeScript</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>C Language</li>
+                <li>Java Language</li>
+            </ul>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section class="work-experience">
+            <h2 onclick="toggleSection('experience-details')">Work Experience</h2>
+            <p>Job Title: Fronted Developer</p>
+            <p>Company: Apna-Code-Wala</p>
+            <p>Software Developer at ABC Company (2020 - Present)</p>
+            <p>Frontend Developer at XYZ Company (2019 - 2020)</p>
+        </section>
+
+        <!-- Button to Toggle Skills Section Visibility -->
+        <button id="toggle-btn">Show/Hide Skills</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
